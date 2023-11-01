@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Your other meta tags and settings -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Social Sync - Your Social Media Posting Platform" />
+    <meta property="og:title" content="Social Sync - Your Social Media Posting Platform">
+    <meta property="og:description" content="Automate your social media posting with Social Sync.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <html lang="en">
+    <link rel="canonical" href="https://yash-jangid.onrender.com/"> 
+    <meta name="robots" content="index, follow">
+    <link rel="icon" type="image/png" href="./logo.png">
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+
+    <script>
+      const originalTitle = "Social Sync - Your Social Media Posting Platform";
+
+      const changeTitleOnBlur = () => {
+        document.addEventListener("visibilitychange", function () {
+          if (document.hidden) {
+            document.title = "Come Back";
+          } else {
+            document.title = originalTitle;
+          }
+        });
+      };
+      changeTitleOnBlur();
+    </script>
+  </body>
+</html>
